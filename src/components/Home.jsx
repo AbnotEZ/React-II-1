@@ -10,9 +10,19 @@ import Img8 from "../img/8.jpg";
 
 const Home = () => {
   return (
+    <div>
+    <div className="flex flex-items justify-center mt-5 mb-3" >
+      <h1>Nuestras Tortas</h1>
+      
+     </div>
+
+     <div className="flex flex-items justify-center ">
+     <h3>Distintos ingredientes y sabores, pero con un solo sentido, el de unirnos.</h3>
+     </div>
+
     <div className="columns-4 mt-10 mr-20 mb-20 ml-20">
       {/* CARD 1 */}
-      <div class="  bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <div class=" bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
         <img class="rounded-t-lg" src={Img1} alt="" />
         <div class="p-5 bg-[#f4f4f2]">
           <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-900 dark:text-white">
@@ -56,7 +66,7 @@ const Home = () => {
         <img class="rounded-t-lg" src={Img4} alt="" />
         <div class="p-5 bg-[#f4f4f2]">
           <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-900 dark:text-white">
-            Torta con Tematica "Whisky Jack Daniel's"
+            Torta "Whisky Jack Daniel's"
           </h5>
           <p class="mb-3 text-xs font-normal text-gray-700 dark:text-gray-400">
             Torta hojarasca, manjar, crema pastelera y frambuesa. Una torta
@@ -83,7 +93,7 @@ const Home = () => {
         <img class="rounded-t-lg" src={Img6} alt="" />
         <div class="p-5 bg-[#f4f4f2]">
           <h5 class="mb-2  text-sm font-bold tracking-tight text-gray-900 dark:text-white">
-            Torta con Tematica "Whisky Jack Daniel's"
+            Torta "Whisky Jack Daniel's"
           </h5>
           <p class="mb-3 text-xs font-normal text-gray-700 dark:text-gray-400">
             Torta hojarasca, manjar, crema pastelera y frambuesa. Una torta
@@ -97,11 +107,10 @@ const Home = () => {
         <img class="rounded-t-lg" src={Img7} alt="" />
         <div class="p-5 bg-[#f4f4f2]">
           <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-900 dark:text-white">
-            Torta con Tematica "Whisky Jack Daniel's"
+            "Torta Whisky Jack Daniel's"
           </h5>
           <p class="mb-3 text-xs font-normal text-gray-700 dark:text-gray-400">
-            Torta hojarasca, manjar, crema pastelera y frambuesa. Una torta
-            clásica pero decorada con los toques modernos de Magda pasteleria.
+            Torta hojarasca, manjar, crema pastelera y frambuesa. 
           </p>
         </div>
       </div>
@@ -111,7 +120,7 @@ const Home = () => {
         <img class="rounded-t-lg" src={Img8} alt="" />
         <div class="p-5 bg-[#f4f4f2]">
           <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-900 dark:text-white">
-            Torta con Tematica "Whisky Jack Daniel's"
+            Torta "Whisky Jack Daniel's"
           </h5>
           <p class="mb-3 text-xs font-normal text-gray-700 dark:text-gray-400">
             Torta hojarasca, manjar, crema pastelera y frambuesa. Una torta
@@ -119,6 +128,7 @@ const Home = () => {
           </p>
         </div>
       </div>
+    </div>
     </div>
   );
 };

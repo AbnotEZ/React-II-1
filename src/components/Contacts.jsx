@@ -2,14 +2,23 @@ import React from 'react'
 
 const Contacts = () => {
   return (
+    
     <div>
-    <div class="mb-6">
-    <div>
-    <label for="small-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Correo</label>
-    <input type="text" id="small-input" class="block p-2 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 " placeholder="example@example.com" required />
+    <div className="flex flex-items justify-center mt-5 mb-3" >
+      <h1>Contactanos</h1>
+      
+     </div>
+
+     <div className="flex flex-items justify-center ">
+     <h3>Dejanos tus recomendaciones.</h3>
+     </div>
+    <div class="mb-6 justify-center">
+    <div >
+    <label for="small-input" class=" block  mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Correo</label>
+    <input type="text" id="small-input" class="block p-2 w-96 text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 " placeholder="example@example.com" required />
 </div>
     <label for="large-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Descripcion</label>
-    <input type="text" id="large-input" class="block p-4 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"/>
+    <input type="text" id="large-input" class="block p-4 w-96 text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"/>
 </div>
 
 
